@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner-container {
@@ -19,6 +20,7 @@
 }
 
 .banner-title {
+    font-weight: 700;
     font-size: 65px;
     line-height: 79px;
 }
@@ -40,4 +42,79 @@
     padding: 16px 12px;
     border: none;
     color: white;
+}
+
+
+.donates {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.donate-container {
+    text-align: center;
+    padding-top: 130px;
+
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.donate-description {
+    width: 50%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 50px;
+    color: #707070;
+}
+
+
+.box {
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    color: #707070;
+}
+
+.box-title {
+    text-align: center;
+    padding: 45px 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.box-2 {
+    width: 135px;
+    height: 123px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.box-title-2 {
+    color: #FF5959;
+}
+
+
+.other{
+    text-align: center;
+}
+.other-amount {
+    color: #B3B3B3;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 765px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DADADA;
+    padding-bottom: 30px;
 }
