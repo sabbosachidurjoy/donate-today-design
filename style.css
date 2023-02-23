@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .banner-container {
@@ -103,18 +104,71 @@
 }
 
 
-.other{
+.other {
     text-align: center;
 }
+
 .other-amount {
     color: #B3B3B3;
     font-size: 18px;
     padding-bottom: 10px;
 }
-hr{
+
+hr {
     width: 765px;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #DADADA;
     padding-bottom: 30px;
+}
+
+
+.our-donate {
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+.planes{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.plane-box {
+    width: 360px;
+    height: 252px;
+    border-radius: 5px;
+    padding: 60px 0 50px 25px;
+}
+
+.plane-box-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plane-box-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plane-box-3 {
+    background: rgba(233, 244, 21, 0.1)
+}
+
+.food .family .education {
+    width: 53px;
+    height: 53px;
+}
+
+.plane-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    padding-bottom: 16px;
+}
+
+.plane-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
 }
